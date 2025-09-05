@@ -57,7 +57,7 @@ export default function Features() {
         className="relative mx-auto ml-3 mt-20 h-fit w-[40rem] max-w-6xl animate-slide-up-fade sm:ml-auto sm:w-full sm:px-2"
         style={{ animationDuration: "1400ms" }}
       >
-        <HeroImage imageSrc="/images/live-polling.png" />
+        <HeroImage imageSrc="/images/live-polling.webp" />
       </div>
       <dl className="mt-24 grid grid-cols-3 gap-10">
         {features.map((item) => (
