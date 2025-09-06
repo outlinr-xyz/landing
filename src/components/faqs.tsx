@@ -58,7 +58,7 @@ export default function Faqs() {
             Can&rsquo;t find the answer you&rsquo;re looking for? Don&rsquo;t
             hesitate to get in touch with our{" "}
             <Link
-              href="mailto:bakaredavid007@gmail.com"
+              href="mailto:bakare@outlinr.xyz"
               className="font-medium text-[#1E4DFF]"
             >
               customer support

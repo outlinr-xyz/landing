@@ -21,7 +21,7 @@ export default function Cta() {
                 <div className="flex size-full gap-2">
                   {Array.from({ length: 41 }, (_, idx2) => (
                     <div key={`inner-${idx}-${idx2}`}>
-                      <div className="size-5 rounded-md shadow shadow-indigoo-500/20 ring-1 ring-black/5"></div>
+                      <div className="size-5 rounded-md shadow shadow-blue-500/20 ring-1 ring-black/5"></div>
                     </div>
                   ))}
                 </div>
@@ -33,7 +33,6 @@ export default function Cta() {
           <div className="flex flex-col items-center justify-center text-center">
             <div>
               <h3
-                id="cta-title"
                 className="inline-block bg-gradient-to-t from-gray-900 to-gray-800 bg-clip-text p-2 text-4xl font-bold tracking-tighter text-transparent md:text-6xl font-space-grotesk"
               >
                 Ready to get started?
@@ -45,7 +44,7 @@ export default function Cta() {
               </p>
             </div>
             <div className="mt-14 w-full rounded-[16px] bg-gray-300/5 p-1.5 ring-1 ring-black/[3%] backdrop-blur">
-              <div className="rounded-xl bg-white p-4 shadow-lg shadow-indigoo-500/10 ring-1 ring-black/5">
+              <div className="rounded-xl bg-white p-4 shadow-lg shadow-blue-500/10 ring-1 ring-black/5">
                 <form
                   className="flex flex-col items-center gap-3 sm:flex-row"
                   onSubmit={(e) => e.preventDefault()}
@@ -76,8 +75,8 @@ export default function Cta() {
             <p className="mt-4 text-xs text-gray-600 sm:text-sm">
               Not sure yet?{" "}
               <Link
-                href="mailto:bakaredavid007@gmail.com"
-                className="font-semibold text-indigoo-600 hover:textindigogo-500"
+                href="mailto:bakare@outlinr.xyz"
+                className="font-semibold text-blue-600 hover:textblue-500"
               >
                 Contact Us
               </Link>

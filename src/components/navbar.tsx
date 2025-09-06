@@ -42,7 +42,7 @@ export default function Navigation() {
                         <OutlinrLogo />
                     </span>
                     <Button className="h-10 font-semibold flex">
-                        <Link href="mailto:bakaredavid007@gmail.com"> Contact Us </Link>
+                        <Link href="#cta-title"> Contact Us </Link>
                     </Button>
                 </div>
             </div>
