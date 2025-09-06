@@ -1,6 +1,6 @@
 import { Badge } from "./ui/badge"
 import HeroImage from "./hero-image"
-import { Icon1, Icon2, Icon3, Icon4, Icon5 } from "./ui/features-icons"
+import { Icon1, Icon2, Icon3, Icon4, Icon5, Icon6 } from "./ui/features-icons"
 
 const features = [
   {
@@ -32,7 +32,7 @@ const features = [
   {
     name: "Quizzes & Surveys",
     description: "Keep attention high while learning more about your audience. Quick checks or deeper surveys give you insights you can act on.",
-    icon: Icon2
+    icon: Icon6
   },
 ]
 

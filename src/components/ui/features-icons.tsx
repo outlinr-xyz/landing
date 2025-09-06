@@ -32,16 +32,15 @@ function Icon5() {
     return (
         <svg aria-hidden="true" width="32px" height="32px" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18.0226 7.30286L8.40002 16.9259V21.7029H13.1775L22.8 12.0798L18.0226 7.30286Z" fill="#FF80AB"></path>
-            </svg>
+        </svg>
     )
 }
 
 function Icon6() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 30 30" aria-hidden="true">
-            <path fill="var(--palette-coral-500)" d="M194.06,24.5a23.46,23.46,0,0,1-6.87,16.6l-16.6,16.6L147.11,81.19,107,41.1a23.49,23.49,0,1,1,40.09-16.6,23.48,23.48,0,1,1,46.95,0Z"></path>
+        <svg aria-hidden="true" width="32px" height="32px" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" className="rotate-90">
+            <svg aria-hidden="true" width="32px" height="32px" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.9699 6.88501L18.1899 6.88501L18.1899 27.115L23.9699 27.115L23.9699 6.88501Z" fill="#199935"></path><path d="M15.81 15.5549L10.03 15.5549L10.03 27.1149L15.81 27.1149L15.81 15.5549Z" fill="#199935"></path></svg>
         </svg>
-
     )
 }
 
